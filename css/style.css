@@ -1,0 +1,259 @@
+/*CSS for page 1, 2, & 3*/
+#main-navbar {
+  background-color: #008000;
+  overflow: hidden;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 12px 30px;
+  color: #000000;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #808080;
+}
+#onpage {
+  text-decoration: underline overline;
+}
+body {
+background-color: #D3D3D3
+}
+
+/*CSS for page 1*/
+#name {
+  background-color: #87CEFA;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#name {
+  text-align: center;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#name:hover { 
+  transform: scale(1.1); 
+}
+#about {
+  background-color: #9370DB;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#about {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#about:hover { 
+  transform: scale(1.1); 
+}
+#sports {
+  background-color: #DC143C;
+  text-align: left;
+  float: left;
+  width: 500px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#sports {
+  text-align: center;
+  margin-left: -150px;
+  margin-right: 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#sports:hover { 
+  transform: scale(1.1); 
+}
+#song {
+  background-color: #BC8F8F;
+  text-align: left;
+  float: left;
+  width: 780px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#song {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 600px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#song:hover { 
+  transform: scale(1.1); 
+}
+#movie{
+  background-color: #FFE4B5;
+  text-align: left;
+  float: left;
+  width: 500px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#movie{
+  text-align: center;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+#movie:hover { 
+  transform: scale(1.1); 
+}
+
+
+/*CSS for page 2*/
+
+.center-text {
+    text-align: center;
+}
+#temp {
+  width: 73%;
+  margin: 0 auto 0% auto;
+  padding: 1% 1% 1% 1%;
+  background-color: #F5FFFA;
+}
+.bottom-border {
+  border-bottom: 2px solid black;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+
+/*CSS for page 3*/
+
+#gam {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 550px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+}
+h3 { 
+  width: 35%;
+  border: 2px solid #008000;
+  font-weight: bold; 
+}
+h3:hover { 
+  transform: scale(1.1); 
+}
+#pic {
+  margin-left: 500px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+}
+#pic:hover { 
+  transform: scale(1.1); 
+}
+#pict {
+  margin-left: 470px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  padding: 30px;
+}
+#pict:hover { 
+  transform: scale(1.1); 
+}
+#res {
+  background-color: #9370DB;
+  text-align: left;
+  float: left;
+  width: 550px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#res {
+  text-align: left;
+  font-family: 'Kalam', cursive;
+  margin-left: 550px;
+  margin-right: 400px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+}
+#res:hover { 
+  transform: scale(1.1); 
+}
+#head {
+  text-align: center;
+  font-family: 'Kalam', cursive;
+}
+#gam-back {
+  background-image: url(../images/back.jpeg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
