@@ -1,61 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Google Maps Page</title>
-    <style>
-      #map {
-        height: 100%;
-      }
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.7128, lng: -74.0060},
-          zoom: 8
-        });
+<head>
+	<title>Google Maps API Example</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+      <nav id="main-navbar">
+        <div id="navbar-container">
+          <h1>Homepage</h1>
+          <ul>
+            <li id="onpage"><a href="index.html">Homepage</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+	<div id="map"></div>
 
-        // Add a marker
-        var marker = new google.maps.Marker({
-          position: {lat: 40.7128, lng: -74.0060},
-          map: map,
-          title: 'New York City'
-        });
-
-        // Add an info window to the marker
-        var infowindow = new google.maps.InfoWindow({
-          content: '<h3>New York City</h3><p>The largest city in the United States</p>'
-        });
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-
-        // Add a polygon
-        var polygon = new google.maps.Polygon({
-          paths: [
-            {lat: 40.741, lng: -74.005},
-            {lat: 40.722, lng: -73.991},
-            {lat: 40.729, lng: -73.975},
-            {lat: 40.748, lng: -73.989},
-            {lat: 40.741, lng: -74.005}
-          ],
-          strokeColor: '#FF0000',
-          strokeOpacity: 0.8,
-          strokeWeight: 2,
-          fillColor: '#FF0000',
-          fillOpacity: 0.35
-        });
-        polygon.setMap(map);
-      }
-    </script>
-  </head>
-  <body>
-    <div id="map"></div>
-  </body>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap"
+	async defer></script>
+	<script src="script.js"></script>
+</body>
 </html>
