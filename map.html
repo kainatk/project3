@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Google Maps API Example</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ITMD 361 - Web Development</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,600;1,500&display=swap" rel="stylesheet">
+    <script src="js/map.js" defer></script>
+  </head>
+  <body>
+    <header>
       <nav id="main-navbar">
         <div id="navbar-container">
-          <h1>Homepage</h1>
+          <h1>Google Maps</h1>
           <ul>
-            <li id="onpage"><a href="index.html">Homepage</a></li>
+            <li><a href="index.html">Homepage</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="gaming.html">Gaming</a></li>
+            <li id="onpage"><a href="maps.html">Google Maps</a></li>
           </ul>
         </div>
       </nav>
     </header>
-	<div id="map"></div>
-
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap"
-	async defer></script>
-	<script src="script.js"></script>
-</body>
+    <section id="map">
+      <h2>Google Maps API</h2>
+      <div id="google-map"></div>
+    </section>
+    <section id="features">
+      <h2>Additional Features</h2>
+      <ol>
+        <li>Show user's location on the map</li>
+        <li>Add a marker to a specific location with a tooltip</li>
+        <li>Add a search box to search for locations</li>
+      </ol>
+    </section>
+  </body>
 </html>
