@@ -340,6 +340,14 @@ navbar-container {
   navbar-container {
     width: 100%;
   }
+   /*Styles for page 2*/
+  #gallery {
+    justify-content: space-between;
+  }
+  .gallery-item {
+    flex-basis: 30%;
+  }
+
 
 
 
