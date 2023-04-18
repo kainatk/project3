@@ -145,55 +145,6 @@ background-color: #D3D3D3
   transform: scale(1.1); 
 }
 
-/* CSS for screens with a minimum width of 768px */
-@media only screen and (min-width: 768px) {
-  #name {
-    width: 30%;
-    margin: 0 35% 30px;
-  }
-  #about {
-    width: 30%;
-    margin: 0 35% 30px;
-  }
-  #sports {
-    width: 30%;
-    margin: 0 35% 30px;
-  }
-  #song {
-    width: 60%;
-    margin: 0 20% 30px;
-  }
-  #movie {
-    width: 30%;
-    margin: 0 35% 30px;
-  }
-}
-
-/* CSS for screens with a minimum width of 1024px */
-@media only screen and (min-width: 1024px) {
-  #name {
-    width: 20%;
-    margin: 0 40% 30px;
-  }
-  #about {
-    width: 20%;
-    margin: 0 40% 30px;
-  }
-  #sports {
-    width: 20%;
-    margin: 0 40% 30px;
-  }
-  #song {
-    width: 50%;
-    margin: 0 25% 30px;
-  }
-  #movie {
-    width: 20%;
-    margin: 0 40% 30px;
-  }
-}
-
-
 /*CSS for page 2*/
 
 .center-text {
