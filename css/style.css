@@ -296,6 +296,13 @@ navbar-container {
   main {
     width: 100%;
 }
+/*Styles for page 2*/
+  #gallery {
+    justify-content: center;
+  }
+  .gallery-item {
+    felx-basis: 45%;
+  }
 
 
 
