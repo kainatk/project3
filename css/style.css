@@ -285,15 +285,17 @@ h3:hover {
   background-image: url(../images/back.jpeg);
 }
 
+/*Media queries*/
+/*Small screens*/
 
-
-
-
-
-
-
-
-
+@media (max-width : 100em) {
+/*Styles for page 1*/
+navbar-container {
+  width: 100%;
+  }
+  main {
+    width: 100%;
+}
 
 
 
