@@ -312,6 +312,18 @@ navbar-container {
   h3 {
     width: 80%;
  }
+  #pic {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    margin: 0px;
+  }
+  #pict {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    margin: 0px;
+  }
 
 
 
