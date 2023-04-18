@@ -347,7 +347,33 @@ navbar-container {
   .gallery-item {
     flex-basis: 30%;
   }
-
+   /*Styles for page 3*/
+  #gam {
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  h3 {
+    width: 50%;
+  }
+  #pic { 
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    margin: 0px;
+  }
+  #pict {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    margin: 0px;
+  }
+  #res {
+    width: 70%;
+    margin 0 50px 30px;
+    font-size: 18px:
+  }
+}
 
 
 
