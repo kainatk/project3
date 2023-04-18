@@ -324,7 +324,13 @@ navbar-container {
     object-fit: cover;
     margin: 0px;
   }
-
+  #res {
+    width: 90%;
+    margin: 0 20 px 30px;
+    font-size: 16px;
+  }
+}
+/*Medium screens*/
 
 
 
