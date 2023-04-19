@@ -344,9 +344,8 @@ h3:hover {
   margin: 0 auto 10px;
 }
 .slider-image {
-  width: 50%;
-  height: 500px;
-  object-fit: cover;
+  width: 100%;
+  height: 600px;
   margin: 0px;
 }
 
