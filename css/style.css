@@ -235,33 +235,32 @@ h3:hover {
   background-image: url(../images/back.jpeg);
 }
 
-/*Media queries*/
-/*Small screens*/
-
-@media (max-width : 100em) {
-/*Styles for page 1*/
-navbar-container {
-  width: 100%;
+/* Media queries */
+/* Small screens */
+@media (max-width: 100em) {
+  /* Styles for page 1 */
+  navbar-container {
+    width: 100%;
   }
   main {
     width: 100%;
-}
- /*Styles for page 2*/
+  }
+  /* Styles for page 2 */
   #gallery {
     justify-content: center;
   }
   .gallery-item {
-    felx-basis: 45%;
+    flex-basis: 45%;
   }
- /*Styles for page 3*/
+  /* Styles for page 3 */
   #gam {
     font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
- }
+  }
   h3 {
     width: 80%;
- }
+  }
   #pic {
     width: 90%;
     height: auto;
@@ -276,28 +275,29 @@ navbar-container {
   }
   #res {
     width: 90%;
-    margin: 0 20 px 30px;
+    margin: 0 20px 30px;
     font-size: 16px;
   }
 }
-/*Medium screens*/
-@media (min-width: 10 em) and (max-width:50em) {
- /*Styles for page 1*/
-  
+
+/* Medium screens */
+@media (min-width: 10em) and (max-width: 50em) {
+  /* Styles for page 1 */
+
   main {
     width: 75%;
   }
   navbar-container {
     width: 100%;
   }
-   /*Styles for page 2*/
+  /* Styles for page 2 */
   #gallery {
     justify-content: space-between;
   }
   .gallery-item {
     flex-basis: 30%;
   }
-   /*Styles for page 3*/
+  /* Styles for page 3 */
   #gam {
     font-size: 25px;
     margin-left: 200px;
@@ -306,7 +306,7 @@ navbar-container {
   h3 {
     width: 50%;
   }
-  #pic { 
+  #pic {
     width: 90%;
     height: auto;
     object-fit: cover;
@@ -320,9 +320,24 @@ navbar-container {
   }
   #res {
     width: 70%;
-    margin 0 50px 30px;
-    font-size: 18px:
+    margin: 0 50px 30px;
+    font-size: 18px;
   }
+}
+
+#map {
+  height: 400px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.button.block {
+  display: block;
+  width: 200px;    
+}
+
+.margin-auto {
+  margin: 0 auto 10px;
 }
 
 
