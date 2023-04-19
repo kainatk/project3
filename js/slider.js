@@ -1,28 +1,27 @@
-var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 3000;	// Time Between Switch
-	 
-// Image List
-images[0] = "images/1.jpg";
-images[1] = "images/2.jpg";
-images[2] = "images/3.jpg";
-
-// Change Image
-function changeImg(){
-	document.slide.src = images[i];
-
-	// Check If Index Is Under Max
-	if(i < images.length - 1){
-	  // Add 1 to Index
-	  i++; 
-	} else { 
-		// Reset Back To O
-		i = 0;
-	}
-
-	// Run function every x seconds
-	setTimeout("changeImg()", time);
-}
-
-// Run function when page loads
-window.onload=changeImg;
+function initMap() {
+    // Create a map centered on New York City
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 40.7128, lng: -74.0060},
+      zoom: 12
+    });
+  
+    // Add a marker for the Empire State Building
+    var empireStateBuilding = new google.maps.Marker({
+      position: {lat: 40.7484, lng: -73.9857},
+      map: map,
+      title: 'Empire State Building'
+    });
+  
+    // Add an info window to the Empire State Building marker
+    var empireStateInfoWindow = new google.maps.InfoWindow({
+      content: '<h2>Empire State Building</h2><p>A 102-story skyscraper located in Midtown Manhattan.</p>'
+    });
+    empireStateInfoWindow.open(map, empireStateBuilding);
+  
+    // Add a button to center the map on the Statue of Liberty
+    var centerButton = document.getElementById('center-btn');
+    centerButton.addEventListener('click', function() {
+      map.setCenter({lat: 40.6892, lng: -74.0445});
+      map.setZoom(15);
+    });
+  }
