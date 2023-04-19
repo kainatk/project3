@@ -346,6 +346,8 @@ h3:hover {
 .slider-image {
   width: 50%;
   height: 500px;
+  object-fit: cover;
+  margin: 0px;
 }
 
 
